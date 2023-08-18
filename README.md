@@ -20,6 +20,8 @@ Tarea No.3 del Laboratorio de Redes de Computadoras 1 Sección O
       * Maquina virtual de 2 nucleos y 8gb de ram
       * Acceso predeterinado
       * Trafico http y https
+        
+      ![creacionVM](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/9df0ec0c-91dc-4d1a-b796-d92f3b89edb9)
 
 2. Iniciar la maquina virtual:
     * En este paso solamente debemos seleccionar la maquina virtual que creamos, hacer click derecho e iniciar maquina virtual.
@@ -97,12 +99,19 @@ Tarea No.3 del Laboratorio de Redes de Computadoras 1 Sección O
 
     - Conecta y verifica la conexión exitosa.
 
+      ![openvpnConection](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/e1b2779f-5ebc-48f3-9839-d656e673aa53)
+      ![openvpnConection2](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/e46da8a3-2891-4524-9015-d255ea578913)
+      ![openvpnConection4](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/46b1c754-7677-4c62-9f9a-90ce022d84c6)
+      ![openvpnConection5](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/258f3bcb-5aa5-4bde-9763-3422b6e6b62e)
+
+
 17. Comprobación de la conexión externa y de la dirección IP.
 
 18. Comprobación de la conexión desde el servidor VPN a tu máquina física usando 'ping'.
 
     * Para poder determinar que nuestra conexion fue exitosa, debemos abrir la consola de nuestra computadora fisica e ingresa el siguiente comando.
       - ipconfig
+        ![ipconfig](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/0c5add6d-df8c-41a2-b100-2522673e57d7)
 
 19. Creación de nuevos Perfiles:
 
@@ -111,3 +120,16 @@ Tarea No.3 del Laboratorio de Redes de Computadoras 1 Sección O
         sudo bash openvpn-install.sh
 
 20. Pruebas de conexión al nuevo cliente usando 'ping'.
+
+    * IP 10.8.0.3
+    ![pingCorrecto1](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/56a6f0b3-e9d2-45d7-82b2-0f341bdd3a51)
+
+    * IP 10.8.0.5
+    ![pingCorrecto2](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/3aa429f1-ad1e-4ba2-937f-ac35c1eb994a)
+
+    * IP 10.8.0.2
+    ![pingCorrecto3](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/980f46b1-efcd-412a-9b80-18d38028d0ef)
+
+    * IP 10.8.0.4
+    ![pingCorrecto4](https://github.com/LuisAlfredoVejo/Redes1_Tarea3_G1/assets/69359637/7eb96c50-5e2d-4619-b2a2-cdfcd6062961)
+
